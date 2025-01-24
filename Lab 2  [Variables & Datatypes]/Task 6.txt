@@ -1,0 +1,34 @@
+//Queston 6(a)
+public class Question6_a
+{
+    public static void main(String[]args)
+    {
+        int num1= 20;
+        int num2= 40;
+        int num3= num2;
+        num2= num1;
+        num1= num3;
+        System.out.println(num1);
+        System.out.println(num2);
+        
+        
+    }
+}  
+
+//Queston 6(b)
+public class Question6_b
+{
+    public static void main(String[]args)
+    {
+        int num1= 20;
+        int num2= 40;
+        num1= num1+num2;
+        num2= num1- num2;
+        num1= num1- num2;
+        
+        System.out.println(num1);
+        System.out.println(num2);
+        
+        
+    }
+} 

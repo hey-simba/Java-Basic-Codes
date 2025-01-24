@@ -1,0 +1,21 @@
+//Queston 11
+public class Question11
+{
+    public static void main(String[]args)
+    {
+        double a= 4.5d;
+        double b= 9.5d;
+        double c= a*a+ b*b;
+        c =Math.sqrt(c);
+        double sin_a= a/c;
+        System.out.printf("sin(A)= %.4f\n",sin_a);
+        double cos_a= b/c;
+        System.out.printf("cos(A)= %.4f\n", cos_a);
+        double sin_b= b/c;
+        System.out.printf("sin(B)= %.4f\n",sin_b);
+        double cos_b= a/c;
+        System.out.printf("cos(A)= %.4f\n", cos_b);
+    
+        
+    }
+}

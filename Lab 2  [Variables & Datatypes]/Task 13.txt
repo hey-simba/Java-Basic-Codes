@@ -1,0 +1,17 @@
+//Queston 13
+public class Question13
+{
+    public static void main(String[]args)
+    {
+        double time_hour= 5.0+(56.0/60)+(23.0/3600);
+        double distance_meter= 1130d;
+        double distance_km= distance_meter/1000;
+        double velocity1= distance_km/time_hour;
+        double distance_mile= distance_meter/1609;
+        double velocity2= distance_mile/time_hour;
+        
+        
+        System.out.printf("Your velocity in km/h is %.7f\n",velocity1);
+        System.out.printf("Your velocity in km/h is %.7f\n",velocity2);
+    }
+}  

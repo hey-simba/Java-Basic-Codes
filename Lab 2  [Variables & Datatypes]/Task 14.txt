@@ -1,0 +1,16 @@
+//Queston 14
+public class Question14
+{
+    public static void main(String[]args)
+    {
+       double route_3= Math.sqrt(3);
+       double a= 8d;
+       double b= 3d;
+       double side= a*a+b*b;
+       side= Math.sqrt(side);
+       double area= ((3*route_3)/2)*side*side;
+       double circumference= 6*side;
+       System.out.printf("Area= %.4f\n",area);
+       System.out.printf("Circumference= %.4f\n",circumference);
+    }
+}

@@ -1,0 +1,13 @@
+//Queston 12
+public class Question12
+{
+    public static void main(String[]args)
+    {
+        int student_id= 23301130;
+        int last_two_digits= student_id%100;
+        int last_digit= last_two_digits%10;
+        int second_last_digit= last_two_digits/10;
+        System.out.println(last_digit);
+        System.out.println(second_last_digit);
+    }
+}

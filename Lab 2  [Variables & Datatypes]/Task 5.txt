@@ -1,0 +1,11 @@
+
+//Queston 5
+public class Question5
+{
+    public static void main(String[]args)
+    {
+        int inch_num= 1000;
+        double meter_num= inch_num*0.0254;
+        System.out.println(inch_num + " inch is "+ meter_num+" meters");
+    }
+}  

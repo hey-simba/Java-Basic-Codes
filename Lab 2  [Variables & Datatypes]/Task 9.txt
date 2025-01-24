@@ -1,0 +1,30 @@
+
+//Queston 9
+public class Question9
+{
+    public static void main(String[]args)
+    {
+        int num= 5;
+        int multi1= num*1;
+        System.out.println(num+ "x" + 1 + "="+ multi1);
+        int multi2= num*2;
+        System.out.println(num+ "x" + 2 + "="+ multi2);
+        int multi3= num*3;
+        System.out.println(num+ "x" + 3 + "="+ multi3);
+        int multi4= num*4;
+        System.out.println(num+ "x" + 4 + "="+ multi4);
+        int multi5= num*5;
+        System.out.println(num+ "x" + 5 + "="+ multi5);
+        int multi6= num*6;
+        System.out.println(num+ "x" + 6 + "="+ multi6);
+        int multi7= num*7;
+        System.out.println(num+ "x" + 7 + "="+ multi7);
+        int multi8= num*8;
+        System.out.println(num+ "x" + 8 + "="+ multi8);
+        int multi9= num*9;
+        System.out.println(num+ "x" + 9 + "="+ multi9);
+        int multi10= num*10;
+        System.out.println(num+ "x" + 10 + "="+ multi10);
+        
+    }
+}  

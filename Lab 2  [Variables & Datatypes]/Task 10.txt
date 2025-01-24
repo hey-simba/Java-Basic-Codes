@@ -1,0 +1,14 @@
+
+//Queston 10
+public class Question10
+{
+    public static void main(String[]args)
+    {
+        int num_of_terms= 100;
+        int first_num=1;
+        int last_num=100;
+        int sum= (num_of_terms/2)*(first_num +last_num);
+        System.out.println(sum);
+        
+    }
+}  

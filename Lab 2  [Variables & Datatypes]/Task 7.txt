@@ -1,0 +1,14 @@
+
+//Queston 7
+public class Question7
+{
+    public static void main(String[]args)
+    {
+        int min=3456789;
+        int years= min/ (60*24*365);
+        int remainder= min% (60*24*365);
+        int days= remainder/(60*24);
+        System.out.println(min+ " minutes is approximately " + years+ " years and "+ days+ " days");
+        
+    }
+} 
