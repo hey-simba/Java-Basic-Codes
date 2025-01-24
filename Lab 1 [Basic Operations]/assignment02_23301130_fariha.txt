@@ -1,0 +1,436 @@
+//Question 1(a)
+// Will work because variable's name can start with any small alphabet (a-z)
+public class Queston1_a
+{
+  public static void main(String[]args)
+  {
+    int hungry;
+  }
+} 
+
+//Queston 1(b)
+// Won't work because variable's name can not start with digits
+public class Queston1_b
+{
+  public static void main(String[]args)
+  {
+    int 2AB;
+  }
+}  
+
+//Queston 1(c)
+// Won't work because variable's name can not be digits
+public class Queston1_c
+{
+  public static void main(String[]args)
+  {
+    int  312.2;
+  }
+} 
+
+//Question 1(d)
+// Will work because variable's name can be any capital alphabet (A-Z)
+public class Queston1_d
+{
+  public static void main(String[]args)
+  {
+    int MOBILE;
+  }
+} 
+
+//Queston 1(e)
+// Won't work because variable's name can not have ""
+public class Queston1_e
+{
+  public static void main(String[]args)
+  {
+    int  “Ans”;
+  }
+} 
+
+//Queston 1(f)
+// Will work because variable's name can start with $
+public class Queston1_f
+{
+  public static void main(String[]args)
+  {
+    int  $30;
+  }
+} 
+
+//Queston 1(g)
+//  Won't work because variable's name can not have /
+public class Queston1_f
+{
+  public static void main(String[]args)
+  {
+    int Yes/No;
+  }
+} 
+
+//Queston 1(h)
+//  Won't work because variable's name can not have -
+public class Queston1_h
+{
+  public static void main(String[]args)
+  {
+    int student-id;
+  }
+} 
+
+//Queston 1(i)
+//  Won't work because variable's name can not have +
+public class Queston1_i
+{
+  public static void main(String[]args)
+  {
+    int A+3;
+  }
+} 
+
+//Queston 1(j)
+//  Won't work because variable's name can not have ''
+public class Queston1_j
+{
+  public static void main(String[]args)
+  {
+    int ‘X’;
+  }
+} 
+
+//Queston 1(k)
+//  Won't work because variable's name can not be any java reserved keywords
+public class Queston1_k
+{
+  public static void main(String[]args)
+  {
+    int return;
+  }
+} 
+
+//Queston 2(1)
+public class Question2_1
+{
+    public static void main(String[]args)
+    {
+        int num1;
+        num1= 20;
+        System.out.println(num1);
+    }
+}  
+
+//Queston 2(2)
+public class Question2_2
+{
+    public static void main(String[]args)
+    {
+        int num1;
+        num1= 20;
+        int num2;
+        num2= 30;
+        int sum= num1+num2;
+        System.out.println(sum);
+    }
+}
+
+//Queston 2(3)
+public class Question2_3
+{
+    public static void main(String[]args)
+    {
+        int num1;
+        num1= 50;
+        int num2;
+        num2= 5;
+        int product= num1*num2;
+        int division= num1/num2;
+        System.out.println(product);
+        System.out.println(division);
+        
+    }
+}
+
+//Queston 2(4)
+public class Question2_4
+{
+    public static void main(String[]args)
+    {
+        double num1;
+        num1= 50.65d;
+        double num2;
+        num2= 5.4d;
+        double sum= num1+num2;
+        double product= num1*num2;
+        double division= num1/num2;
+        System.out.println(sum);
+        System.out.println(product);
+        System.out.println(division);
+        
+    }
+}
+
+//Question 2(5)
+public class Question2_5
+{
+    public static void main(String[]args)
+    {
+        int num1;
+        num1= 50;
+        double num2;
+        num2= 5.0d;
+        double sum= num1+num2;
+        double product= num1*num2;
+        double division= num1/num2;
+        System.out.println(sum);
+        System.out.println(product);
+        System.out.println(division);
+        
+    }
+}
+
+//Question 2(6)
+public class Question2_6
+{
+    public static void main(String[]args)
+    {
+        String str1;
+        str1= "hello";
+        String str2;
+        str2= "hi";
+        String sum1= str1+str2;
+        System.out.println(sum1);
+        
+        String str3;
+        str3= "hello";
+        int num1;
+        num1= 5;
+        String sum2= str3+num1;
+        System.out.println(sum2);
+        
+        int num2;
+        num2= 10;
+        String str4;
+        str4= "hello";
+        String sum3=num2+str4;
+        System.out.println(sum3);
+  
+    }
+}
+
+//Question 3
+public class Question3
+{
+    public static void main(String[]args)
+    {
+      double pi = 3.1416d;
+      int radius= 4;
+      double circumference= 2*pi*radius;
+      double area= pi*radius*radius;
+      System.out.println("Circumference= "+ circumference);
+      System.out.println("Area= "+ area);
+    }
+}
+
+//Queston 4
+public class Question4
+{
+    public static void main(String[]args)
+    {
+        int num1;
+        num1= 236543070;
+        int last_digit= num1%100;
+        System.out.println(last_digit);
+    }
+}  
+
+//Queston 5
+public class Question5
+{
+    public static void main(String[]args)
+    {
+        int inch_num= 1000;
+        double meter_num= inch_num*0.0254;
+        System.out.println(inch_num + " inch is "+ meter_num+" meters");
+    }
+}  
+
+//Queston 6(a)
+public class Question6_a
+{
+    public static void main(String[]args)
+    {
+        int num1= 20;
+        int num2= 40;
+        int num3= num2;
+        num2= num1;
+        num1= num3;
+        System.out.println(num1);
+        System.out.println(num2);
+        
+        
+    }
+}  
+
+//Queston 6(b)
+public class Question6_b
+{
+    public static void main(String[]args)
+    {
+        int num1= 20;
+        int num2= 40;
+        num1= num1+num2;
+        num2= num1- num2;
+        num1= num1- num2;
+        
+        System.out.println(num1);
+        System.out.println(num2);
+        
+        
+    }
+}  
+
+//Queston 7
+public class Question7
+{
+    public static void main(String[]args)
+    {
+        int min=3456789;
+        int years= min/ (60*24*365);
+        int remainder= min% (60*24*365);
+        int days= remainder/(60*24);
+        System.out.println(min+ " minutes is approximately " + years+ " years and "+ days+ " days");
+        
+    }
+}  
+
+//Queston 8
+public class Question8
+{
+    public static void main(String[]args)
+    {
+        int a;
+        a= 2;
+        int b;
+        b=5;
+        int c;
+        c=8;
+        int d= ((2*b)*(c-a)/3)+7;
+        System.out.println(d);
+        
+    }
+} 
+
+//Queston 9
+public class Question9
+{
+    public static void main(String[]args)
+    {
+        int num= 5;
+        int multi1= num*1;
+        System.out.println(num+ "x" + 1 + "="+ multi1);
+        int multi2= num*2;
+        System.out.println(num+ "x" + 2 + "="+ multi2);
+        int multi3= num*3;
+        System.out.println(num+ "x" + 3 + "="+ multi3);
+        int multi4= num*4;
+        System.out.println(num+ "x" + 4 + "="+ multi4);
+        int multi5= num*5;
+        System.out.println(num+ "x" + 5 + "="+ multi5);
+        int multi6= num*6;
+        System.out.println(num+ "x" + 6 + "="+ multi6);
+        int multi7= num*7;
+        System.out.println(num+ "x" + 7 + "="+ multi7);
+        int multi8= num*8;
+        System.out.println(num+ "x" + 8 + "="+ multi8);
+        int multi9= num*9;
+        System.out.println(num+ "x" + 9 + "="+ multi9);
+        int multi10= num*10;
+        System.out.println(num+ "x" + 10 + "="+ multi10);
+        
+    }
+}  
+
+//Queston 10
+public class Question10
+{
+    public static void main(String[]args)
+    {
+        int num_of_terms= 100;
+        int first_num=1;
+        int last_num=100;
+        int sum= (num_of_terms/2)*(first_num +last_num);
+        System.out.println(sum);
+        
+    }
+}  
+
+//Queston 11
+public class Question11
+{
+    public static void main(String[]args)
+    {
+        double a= 4.5d;
+        double b= 9.5d;
+        double c= a*a+ b*b;
+        c =Math.sqrt(c);
+        double sin_a= a/c;
+        System.out.printf("sin(A)= %.4f\n",sin_a);
+        double cos_a= b/c;
+        System.out.printf("cos(A)= %.4f\n", cos_a);
+        double sin_b= b/c;
+        System.out.printf("sin(B)= %.4f\n",sin_b);
+        double cos_b= a/c;
+        System.out.printf("cos(A)= %.4f\n", cos_b);
+    
+        
+    }
+} 
+
+//Queston 12
+public class Question12
+{
+    public static void main(String[]args)
+    {
+        int student_id= 23301130;
+        int last_two_digits= student_id%100;
+        int last_digit= last_two_digits%10;
+        int second_last_digit= last_two_digits/10;
+        System.out.println(last_digit);
+        System.out.println(second_last_digit);
+    }
+} 
+
+//Queston 13
+public class Question13
+{
+    public static void main(String[]args)
+    {
+        double time_hour= 5.0+(56.0/60)+(23.0/3600);
+        double distance_meter= 1130d;
+        double distance_km= distance_meter/1000;
+        double velocity1= distance_km/time_hour;
+        double distance_mile= distance_meter/1609;
+        double velocity2= distance_mile/time_hour;
+        
+        
+        System.out.printf("Your velocity in km/h is %.7f\n",velocity1);
+        System.out.printf("Your velocity in km/h is %.7f\n",velocity2);
+    }
+}  
+
+//Queston 14
+public class Question14
+{
+    public static void main(String[]args)
+    {
+       double route_3= Math.sqrt(3);
+       double a= 8d;
+       double b= 3d;
+       double side= a*a+b*b;
+       side= Math.sqrt(side);
+       double area= ((3*route_3)/2)*side*side;
+       double circumference= 6*side;
+       System.out.printf("Area= %.4f\n",area);
+       System.out.printf("Circumference= %.4f\n",circumference);
+    }
+}
