@@ -1,0 +1,12 @@
+
+//Queston 4
+public class Question4
+{
+    public static void main(String[]args)
+    {
+        int num1;
+        num1= 236543070;
+        int last_digit= num1%100;
+        System.out.println(last_digit);
+    }
+} 

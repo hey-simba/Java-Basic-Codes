@@ -1,0 +1,14 @@
+
+//Question 3
+public class Question3
+{
+    public static void main(String[]args)
+    {
+      double pi = 3.1416d;
+      int radius= 4;
+      double circumference= 2*pi*radius;
+      double area= pi*radius*radius;
+      System.out.println("Circumference= "+ circumference);
+      System.out.println("Area= "+ area);
+    }
+}
