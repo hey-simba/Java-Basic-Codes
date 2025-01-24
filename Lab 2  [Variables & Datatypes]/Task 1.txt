@@ -1,0 +1,48 @@
+//  Won't work because variable's name can not have /
+public class Queston1_f
+{
+  public static void main(String[]args)
+  {
+    int Yes/No;
+  }
+} 
+
+//Queston 1(h)
+//  Won't work because variable's name can not have -
+public class Queston1_h
+{
+  public static void main(String[]args)
+  {
+    int student-id;
+  }
+} 
+
+//Queston 1(i)
+//  Won't work because variable's name can not have +
+public class Queston1_i
+{
+  public static void main(String[]args)
+  {
+    int A+3;
+  }
+} 
+
+//Queston 1(j)
+//  Won't work because variable's name can not have ''
+public class Queston1_j
+{
+  public static void main(String[]args)
+  {
+    int ‘X’;
+  }
+} 
+
+//Queston 1(k)
+//  Won't work because variable's name can not be any java reserved keywords
+public class Queston1_k
+{
+  public static void main(String[]args)
+  {
+    int return;
+  }
+} 
